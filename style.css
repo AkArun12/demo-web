@@ -33,13 +33,13 @@ header h1 {
   font-family: "Russo One", sans-serif;
 }
 
-nav {
-  background-color: #373333;
+nav,footer {
+  background-color: #4d3333;
   display: flex;
   /* overflow: hidden; */
 }
 
-nav a {
+footer, nav a {
   color: white;
   text-decoration: none;
   padding: 14px 20px;
@@ -132,6 +132,27 @@ section h4 {
   color: #0e76a8;
 
 }
+
+
+.about_us{
+  margin: 50px;
+
+}
+.about_title{
+  font-size: 1.5em;
+  padding: 0px 10px;
+  color: #120f5e;
+
+ }
+
+ .about_content{
+  color: #1c1a3a;
+  font-weight: 400;
+  padding-bottom: 10px 0px 20px 0px;
+  text-align: justify;
+  font-size: 20px;
+
+ }
 
 .banner {
   background-image: url(images/car.gif);
@@ -267,7 +288,7 @@ section h2 span {
 /* media Queries section  */
 
 @media screen and (max-width: 837px) {
-  nav {
+  footer, nav {
     flex-direction: column;
     padding: 10px 0px;
     cursor: pointer;
