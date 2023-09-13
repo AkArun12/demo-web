@@ -39,10 +39,11 @@ nav,footer {
   /* overflow: hidden; */
 }
 
-footer, nav a {
+footer a, nav a {
   color: white;
   text-decoration: none;
   padding: 14px 20px;
+  font-size: 20px;
 
   /* float: left; */
 }
@@ -185,6 +186,11 @@ section h2 span {
   color: rgb(113, 79, 79);
   cursor: pointer;
   text-decoration: none;
+}
+
+footer{
+  background-color: aliceblue;
+
 }
 
 /* Animations section for body background */
