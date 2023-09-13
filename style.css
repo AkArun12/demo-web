@@ -105,6 +105,32 @@ section h4 {
   );
   padding: 10px 15px;
   border-radius: 10px;
+  font-size:1.25em ;
+}
+
+.sm-handle a:hover {
+
+  background-color: rgb(30,30,30 /25%);
+
+}
+
+.sm-handle a i {
+  margin: 5px;
+}
+
+
+.yt-handle{
+  color: #FF0000;
+
+}
+.instagram-handle{
+  color: #dd2a7b;
+  
+
+}
+.linkedin-handle{
+  color: #0e76a8;
+
 }
 
 .banner {
