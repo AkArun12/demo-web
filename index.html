@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon1/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon1/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon1/favicon-16x16.png" />
+  <!-- <link rel="manifest" href="/site.webmanifest" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Demo website |Home</title>
+</head>
+
+<body>
+  <header>
+    <div class="banner"></div>
+  </header>
+  <nav>
+    <a class="menu-btn" href="#">Home</a>
+    <a class="menu-btn" href="#">About</a>
+    <a class="menu-btn" href="#">Gallery</a>
+    <a class="menu-btn" href="#">Contact</a>
+    <a class="flex-align-right menu-btn" href="#">Login/Signup</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2><span>Nature</span></h2>
+      <div class="carousel" data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell">
+          <video src="videos/tea.mp4" poster="images/tea.jpg" controls loop="true"></video>
+        </div>
+        <div class="carousel-cell">
+          <video src="videos/drive.mp4" poster="images/nature.jpg" controls loop="true"></video>
+        </div>
+        <div class="carousel-cell">
+          <video src="videos/tech.mp4" poster="images/tech.jpg" controls loop="true"></video>
+        </div>
+      </div>
+    </section>
+    <!-- Songs Reviews section -->
+    <section>
+      <h2><span>Songs Reviews</span></h2>
+      <div class="carousel" data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell iframe-container">
+          <iframe src="https://www.youtube.com/embed/4tywp83zkmk?si=fQZf4e_LK36iMkrO" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="carousel-cell iframe-container">
+          <iframe src="https://www.youtube.com/embed/qFkNATtc3mc?si=J_Ysey4BRCqHX40Q" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+            allowfullscreen></iframe>
+        </div>
+
+        <div class="carousel-cell iframe-container">
+          <iframe src="https://www.youtube.com/embed/LGsxI8loBT4?si=0tuIisWdUfElfAYH" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2><span>Study Material</span></h2>
+
+      <div class="carousel" data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell">
+          <a href="notes/htmlcheat.pdf" target="_blank"><img class="img-responsive" src="images/html1.png"
+              alt="html image" /></a>
+        </div>
+        <div class="carousel-cell">
+          <a href="notes/csscheat.pdf" target="_blank"><img class="img-responsive" src="images/css1.png"
+              alt="Css image" /></a>
+        </div>
+        <div class="carousel-cell">
+          <a href="notes/jscheat.pdf" target="_blank"><img class="img-responsive" src="images/js1.png"
+              alt="Js image" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2><span>Our Founder</span></h2>
+      <img class="profile_img" src="images/sagar.jpg" alt="This is Mr.Sagar kathariya" height="250px" />
+      <h3 class="profile_name">Sagar Kumar</h3>
+
+      <div class="sm-handle">
+
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+      &nbsp;
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Linkdein</a>&nbsp;
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+
+      </div>
+
+      <h4>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti,
+        aperiam.
+      </h4>
+    </section>
+  </main>
+  <footer>
+    <a class="copyright" href="#">&copy; 2023| Enjoy nature</a>
+    <a href="#">FAQ</a>
+    <a href="#">Contact us</a>
+    <a href="#">Terms of use</a>
+    <a href="#">Privacy</a>
+    <a href="#">Refund policy</a>
+  </footer>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
