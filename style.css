@@ -33,13 +33,14 @@ header h1 {
   font-family: "Russo One", sans-serif;
 }
 
-nav,footer {
-  background-color: #4d3333;
+nav{
+  background-color: #000000;
   display: flex;
+  padding: 10px;
   /* overflow: hidden; */
 }
 
-footer a, nav a {
+ nav a {
   color: white;
   text-decoration: none;
   padding: 14px 20px;
@@ -68,12 +69,14 @@ img {
 footer {
   display: flex;
   height: 100px;
+  background:black;
+ 
 }
 
 footer a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  padding: 14px 20px;
+  padding: 10px 20px;
   font-size: 20px;
   padding-top: 40px;
   cursor: pointer;
@@ -180,6 +183,7 @@ section h4 {
 .menu-btn:hover {
   background-color: white;
   color: black;
+  border-radius: 20px;
 }
 
 section h2 span {
@@ -196,10 +200,7 @@ section h2 span {
   text-decoration: none;
 }
 
-footer{
-  background-color: aliceblue;
 
-}
 
 /* Animations section for body background */
 
@@ -299,7 +300,7 @@ footer{
   }
 }
 
-/* media Queries section  */
+/* media Queries section  starts*/
 
 @media screen and (max-width: 837px) {
   footer, nav {
