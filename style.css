@@ -97,6 +97,13 @@ section h4 {
   margin: 20px 0px 30px 0px;
 }
 
+.sm-handle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .sm-handle a {
   background-image: radial-gradient(
     circle 369px at -2.9% 12.9%,
@@ -104,9 +111,10 @@ section h4 {
     rgba(236, 180, 238, 0.56) 46.4%,
     rgba(163, 203, 247, 1) 100.7%
   );
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
   border-radius: 10px;
   font-size:1.25em ;
+
 }
 
 .sm-handle a:hover {
